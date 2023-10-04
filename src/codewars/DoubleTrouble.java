@@ -16,7 +16,7 @@ public class DoubleTrouble {
     }
 
     public static int[] trouble(int[] x, int t) {
-        for (int i = 0; i < x.length -1; i++) {
+        for (int i = 0; i < x.length - 1; i++) {
             if (x[i] + x[i + 1] == t) {
                 int[] temp = new int[x.length - 1];
                 System.arraycopy(x, 0, temp, 0, i + 1);
